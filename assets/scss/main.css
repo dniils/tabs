@@ -1,0 +1,42 @@
+.container {
+  width: 700px;
+  margin: 200px auto;
+  background-color: #000;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  margin: 0 auto;
+}
+.tabs .active {
+  background-color: #fff;
+}
+.tabs__item {
+  background-color: #ccc;
+  padding: 10px 40px;
+  margin: 20px auto;
+}
+.tabs__item:hover {
+  cursor: pointer;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+.content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.content .active {
+  display: block;
+}
+.content__item {
+  width: 600px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  display: none;
+}/*# sourceMappingURL=main.css.map */
